@@ -1,0 +1,32 @@
+<div class="card flex-md-row mb-4 shadow-sm h-md-250">
+ <div class="card-body d-flex flex-column align-items-start">
+  <img class="imagemPost" src="img/dicas-de-empreendedorismo.jpg">
+  <h3 class="mb-0">
+    <a class="text-dark" href="#">Como ter um mindset empreendedor?</a>
+  </h3>
+  <div class="mb-1 text-muted">Postado por Bruna Moraes, dia 31/07/2018</div>
+  <p class="card-text mb-auto">Primeiro, você deve estar se perguntando o que significa mindset, palavra que está tão em alta ultimamente.  Se você é aquilo que você pensa, porque não programar o seu pensamento para alcançar o sucesso? Mindset é a sua mente configurada, e neste caso, para o empreendedorismo.
+Empreender não é fácil e pode ficar ainda mais complicado se tiver aquela voz dentro de você dizendo que não é capaz.
+Por isso, baseado nas características de grandes empreendedores, trago algumas dicas:</p>
+  </br>
+  <strong><label>Saiba onde quer chegar</strong></label>
+  <p>Tenha clareza de onde está e para onde deseja ir ao trilhar o caminho do seu negócio, tenha um propósito, assim fica mais fácil ter metas para o objetivo final.</p>
+  </br>
+  <strong><label>Trabalhe duro, mas saiba delegar</strong></label>
+  <p>Empreender não é para quem quer apenas mandar. Você precisa ser aquela quem mais acredita no seu projeto. Trabalhe duro, mas saiba delegar as tarefas, procure por pessoas que estejam aptas para exercer a função.</p>
+  </br>
+  <strong><label>Comece já</strong></label>
+  <p>Vá para o próximo nível antes de sentir 100% pronto. Não espere certeza absoluta para cada tomada de ação, pois isso não acontecerá rápido, você pode perder o timing, a oportunidade e se esperar muito, o seu negócio nunca sairá do papel.</p>
+  </br>
+  <img class="imagemPost" src="img/mindset-empreendedor.jpg">
+  </br>
+  <strong><label>Não tenha medo do fracasso</strong></label>
+  <p>Você vai fracassar e isso é bom. Se você fracassou é porque você tentou, quem desiste na primeira tentativa frustrada não vence. Será necessário fracassos para chegar ao sucesso.</p>
+  </br>
+  <strong><label>Mantenha o foco mas mude se for necessário</strong></label>
+  <p>Não tenha medo de mudar a percepção do seu negócio, porque você vai errar, saiba como errar e minimizar os danos.</p>
+  <strong><label>Cuidado com o ego / Não fume crack</strong></label>
+  <p>Durante o caminho ao sucesso, muitos irão duvidar da sua capacidade e colocar obstáculos, mas quando chegar ao sucesso, eles irão te aplaudir, você se sentirá realizado e cuidado com ego, não tenha uma visão distorcida da realidade, achando que o seu negócio é o melhor e nada irá te derrubar, pois não há garantias que depois do sucesso, não aparecem outros fracassos.</p>
+ </div>
+</div>
+
