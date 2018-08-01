@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Brainee</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-reboot.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    
+    <!-- Custom styles for flexbox -->
+    <link href="../css/flex.css" rel="stylesheet">
+  </head>
+
+<!-- #3e0c44 -->
+
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="container flexMenu">
+	      <a class="navbar-brand" href="#">BRAINEE</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">Título mais longo para um post destacado</h1>
+          <p class="lead my-3">Várias linhas formando uma introdução, informando novos leitores rápido e eficientemente sobre o que é mais interessante, neste post.</p>
+          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-9">
+        	<div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <img class="imagemPost" src="../img/meeting.jpg">
+              <h3 class="mb-0">
+		      </br>
+                <a class="text-dark" href="#">Como tirar sua Startup do papel?</a>
+              </h3>
+              <div class="mb-1 text-muted">Postado por Victoria Oliveira, dia 01/08/2018</div>
+              <p class="card-text mb-auto">Você tem uma ideia de negócio inovadora e viável, mas não sabe como começar?</p>
+				Já se perguntou como criar uma startup, mas não possui experiência ou investimento? Calma, não desanime! Existem soluções e dúvidas. Quer saber qual? Uma incubadora de empresas!</p>
+				Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até o final e veja como funciona, onde encontrar, as vantagens e se torne expert no assunto.</p>
+			  </br>
+			  <strong><label>Afinal, o que é uma incubadora?</label></strong>
+			  <p>São organizações que têm o objetivo de fortalecer e preparar microempresas ou pequenas empresas para garantir a sua sobrevivência no mercado. Elas são mantidas por instituições públicas ou privadas.</p>
+                          <p>Possuem um programa colaborativo de apoio composto por mentorias, treinamentos e espaço para o trabalho. Oferecendo suporte e estrutura desde a adaptação do modelo de negócios, até desenvolvimento do empreendedor.</p>
+			  </br>
+			  <strong><label>Como posso participar?</strong></label>
+			  <p>Encaixam-se nesse perfil: microempresas, empreendedores que têm uma ideia/projeto criativo e inovador em algum aspecto, mas ainda não fundaram o negócio e empresas já atuantes no mercado, que possuem um produto market fit mas precisam ganhar tração para seu crescimento.</p>
+			  </br>
+			  <strong><label>Jornada da Startup da Incubação ao Sucesso</label></strong>
+			  <p>Depois de entender o que é uma incubadora e como participar, a Brainne cita 2 exemplos para se inspirar de startups que foram incubadas, conseguiram se desenvolver e continuam em constante crescimento:</p>
+                          <p>Resultados Digitais (RD) uma das startups mais conhecidas atualmente no ramo de marketing digital e serviços de consultoria, focados em gerar resultados de tráfego e vendas. A empresa passou por esse processo de incubação com faturamento de 83 milhões, segundo matéria da Exame. Veja a matéria completa clicando aqui.</p>
+                          <p>A startup Dataeduc pensando em soluções integradas para a gestão da educação, teve seu plano de negócios elaborado por uma empresa incubadora, atendendo hoje mais de 3 mil escolas (dentre elas, Dom Bosco e Abril Educação). Ficou interessado em saber mais sobre a empresa? Clique aqui.</p>
+			  <p>Quer descobrir mais startups que começaram incubadas? Deixamos aqui algumas matérias relacionada ao assunto:</p>
+			  <p>http://jornal.usp.br/universidade/incubadora-na-usp-recebe-11-novas-startups/</p>
+                          <p>https://startupi.com.br/2014/06/celta-premia-melhores-incubadas/</p>
+ 			  </br>
+	  <img class="imagemPost" src="../img/mindset-empreendedor.jpg">
+	  </br>
+			  <strong><label>Principais incubadoras e onde encontrar</label></strong>
+			  <p>Cada incubadora possui suas características, como processo seletivo para candidatos, taxa de manutenção, serviços e consultorias oferecidas.</p>
+		          <p>A iDexo localizada na cidade de São Paulo, é uma plataforma aberta para inovações, proporcionando um espaço onde desenvolvedores, startups e empresas se conectarem para transformar desafios em soluções exponenciais.</p>
+			  <p>Se interessou pela ideia da iDexo? Clique aqui e conheça mais sobre o projeto.</p>
+			  <p>A Supera Incubadora está localiza na cidade de Ribeirão Preto e possui cerca de 50 empresas instaladas. Além dos serviços prestados pelo Centro de Tecnologia, para cada fase da startup selecionada há uma modalidade ideal.</p>
+                          <p>Quer saber mais sobre o programa da Supera? Clique aqui e descubra mais sobre o projeto.</p>
+
+                          <p>Achou interessante e quer conhecer mais empresas? Listamos alguns links para suas descobertas:</p>
+
+                         <p>http://www.anjosdobrasil.net/co-working-incubadoras-e-aceleradoras.html</p>
+
+                         <p>http://anprotec.org.br/site/</p>
+			  </br>
+			  <strong><label>As vantagens de startups incubadas/label></strong>
+			  <p>De acordo com  o Sebrae, empresas de tecnologia incubadas possuem um índice de fracasso de aproximadamente 20% nos dois primeiros anos de atividade, sendo esse mesmo índice de 50% para pequenas empresas no geral.</p>
+			  <p>O suporte oferecido pelas incubadoras aumenta a chance de crescimento das startups incubadas, sendo as principais vantagens: consultoria para modelos e concepção do negócio, acesso a networking e parceiros estratégicos, consultoria contábil e jurídica, assessoria de marketing, acesso a fundos de empréstimo e financiamentos, espaço físico e estrutura empresarial.</p>
+			 </br>
+			<p>Para ajudá-lo nesse trabalho, a Brainee produz conteúdo sobre startups, tecnologia e empreendedorismo adaptado aos seus interesses. Caso tenha gostado, insira suas informações abaixo e seja informado quando novos conteúdos forem lançados!</p>
+
+            </div>
+          </div>
+           <a href="../index.html"><input type="button" class="btn card-button" value="Voltar"></a>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-add flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <!--TODO: VALIDAR FORM -->
+              <form id="contactForm">
+                <div class="form-group">
+                  <strong><label class="styleLabel">Preenchimento do formulário de contato</label></strong>
+                </div>
+                <div class="form-group">
+                  <label>Nome completo:</label>
+                  <input type="text" class="form-control" id="txtNomeUsuario" placeholder="Informe seu nome">
+                </div>
+                <div class="form-group">
+                  <label>Email:</label>
+                  <input type="email" class="form-control" id="txtEmailUsuario" placeholder="Informe seu email">
+                </div>
+                <div class="form-group">
+                  <label>Ocupação:</label>
+                  <input type="text" class="form-control" id="txtOcupacaoUsuario" placeholder="Informe sua ocupação">
+                </div>
+                <div class="form-group form-check">
+                </div>
+                <button type="submit" id="btnEnviar" class="btn card-button">Enviar</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm h-md-250">
+            <div class="sideMenu">
+                <h3 class="mb-0">
+                    <a class="text-white" href="#">Últimos Posts</a>
+                </h3>  
+            </div> 
+            <div class="card-body d-flex flex-column align-items-start">             
+              <ul>
+                <li><a class="customLink" href="#">Consultoria de Negócios</a></li>
+                <li><a href="#">Sua Startup do Zero</a></li>
+                <li><a href="#">Post 3</a></li>
+                <li><a href="#">Post 2</a></li>
+                <li><a href="pages/primeiroPost.html">Como ter um mindset empreendedor?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-functions.js"></script>
+    
+
+    <script src="../js/bancoFirebase.js"></script>>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
