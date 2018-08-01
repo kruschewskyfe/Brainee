@@ -44,7 +44,7 @@ Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até 
         
           </div>
 
-        </div>
+      
      
 
   <?php
