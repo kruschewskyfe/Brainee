@@ -96,7 +96,7 @@
     font-size: 0.9em;
   }
   #ouibounce-modal .modal-footer {
-    position: absolute;
+    position: unset;
     bottom: 20px;
     text-align: center;
     width: 100%;
