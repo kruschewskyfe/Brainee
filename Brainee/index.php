@@ -86,11 +86,9 @@
             </div> 
             <div class="card-body d-flex flex-column align-items-start">             
               <ul>
+              <li><a href="blog/como-ter-um-mindset_empreendedor.php">Como ter um mindset empreendedor?</a></li>
                 <li><a class="customLink" href="blog/#">Consultoria de Negócios</a></li>
                 <li><a href="#">Sua Startup do Zero</a></li>
-                <li><a href="#">Post 3</a></li>
-                <li><a href="#">Post 2</a></li>
-                <li><a href="blog/Como_ter_um_mindset_empreendedor.php">Como ter um mindset empreendedor?</a></li>
               </ul>
             </div>
           </div>
