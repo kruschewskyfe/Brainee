@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Brainee</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-reboot.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    
+    <!-- Custom styles for flexbox -->
+    <link href="../css/flex.css" rel="stylesheet">
+  </head>
+
+<!-- #3e0c44 -->
+
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="container flexMenu">
+	      <a class="navbar-brand" href="#">BRAINEE</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">Título mais longo para um post destacado</h1>
+          <p class="lead my-3">Várias linhas formando uma introdução, informando novos leitores rápido e eficientemente sobre o que é mais interessante, neste post.</p>
+          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-9">
+        	<div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <img class="imagemPost" src="../img/dicas-de-empreendedorismo.jpeg">
+              </br>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">8 cursos online gratuitos que vão te ajudar a construir sua Startup do zero!</a>
+              </h3>
+              <div class="mb-1 text-muted">Postado por Paulo Muzyczuk, dia 31/07/2018</div>
+              <p class="card-text mb-auto">Todo mundo sabe que empreender não é fácil. Basta começar seu negócio para perceber que, de repente, você vai precisar entender de recursos humanos, direito, finanças, marketing, vendas, gestão de projetos e até programação.
+			  </br>
+			  Ainda não existe nenhuma escola ou faculdade que te deixe completamente preparado para empreender, sendo a falta de preparação um dos grandes motivos para que <a href=“http://www.sebrae.com.br/Sebrae/Portal Sebrae/Anexos/sobrevivencia-das-empresas-no-brasil-102016.pdf”> aproximadamente 25% das empresas não sobrevivam além dos dois primeiros anos de atividade.</a>
+			  </br>
+			  Felizmente existem muitas pessoas dispostas a ajudar os empreendedores brasileiros oferecendo conteúdo gratuito e de qualidade na internet. A Brainee compilou uma lista de 8 cursos onlines gratuitos (e em português!) que irão ajudá-lo na dura missão de tirar uma startup do papel.
+			  </br>
+			  <strong><label>1.Dê os primeiros passos na elaboração do seu modelo de negócio</label></strong>
+			  Empreender sem um plano de negócios claro é como dar um tiro no escuro. Para ter sucesso, é fundamental mapear quais são suas propostas de valor, quais segmentos de clientes você deseja atender, quem são seus concorrentes e parceiros, entre outros.
+			  </br>
+			  Para entender todas essas variáveis recomendamos o curso de Empreendedorismo e Inovação, oferecido pela Fundação Bradesco.
+			  </br>
+		          A Fundação Bradesco possui uma série de cursos digitais de excelente qualidade. E o melhor: todos são gratuitos e de livre acesso ao grande público. Basta fazer um cadastro na plataforma para começar a assistir. Para mais informações sobre o curso, <a href="https://www.ev.org.br/curso/administracao/fundamentos-da-administracao/empreendedorismo-e-inovacao?return=/cursos/administracao"> clique aqui.</a>
+			  <strong><label>2.Entenda como as leis impactam seu negócio</label></strong>
+			  Antes mesmo de possuir um CNPJ, muitos empreendedores se deparam com uma dúvida cruel: devo ser MEI ou ME? 
+			  </br>
+		   	  E isso é só o começo! Depois disso, as dúvidas jurídicas aparecem aos montes: direitos trabalhistas, direitos do consumidor, aspectos tributários... a lista é longa!
+			  </br>
+			  Para te auxiliar com todas essas dúvidas, a Brainee sugere o curso “O Direito Na Vida do Empreendedor”, oferecido gratuitamente pela Endeavor. Para acessar a página do curso, <a href="https://endeavor.org.br/leis-e-impostos/direito-empreendedor/">clique aqui.</a>
+			  </br>
+			  <strong><label>3.Prepare-se para gerir uma equipe de vendas</label></strong>
+			  Muitos negócios possuem vendedores como principal canal de interação com o cliente. Se esse for o seu caso, não deixe de assistir ao curso “Gestão de equipe de vendas” do SEBRAE.
+			  </br>
+			  O curso aborda temas muito importantes como processo seletivo e remuneração variável. É oferecido na plataforma de ensino online do SEBRAE, bastando apenas um simples cadastro para assistir ao conteúdo. Acesse-o <a href="http://www.sebrae.com.br/sites/PortalSebrae/ead/gestao-de-equipe-de-vendas,25667ad8d4570610VgnVCM1000004c00210aRCRD">clicando aqui.</a>
+                          </br>
+			  <strong><label>4.Otimize a gestão financeira do seu negócio</label></strong>
+			  A população brasileira, como um todo, carece de educação financeira. O brasileiro médio sofre bastante para organizar suas finanças pessoais, portanto, é normal que empreendedores enfrentem diversos desafios financeiros ao abrir seu negócio.
+			  </br>
+                          O curso “Finanças Básicas Para Empreendedores”, oferecido também pela Endeavor, tem como objetivo ajudar o empreendedor que está tendo seu primeiro contato com finanças a entender os principais conceitos da área. Veja mais sobre o curso <a href="https://pt.coursera.org/learn/criacao-startups">clicando aqui!</a>
+			  </br>
+			  <strong><label>6.Entenda os fundamentos de Gestão de Operações</label></strong>
+			  Uma boa estratégia operacional pode ser a diferença entre a vida ou a morte de uma pequena empresa ou startup. 
+			  </br>
+			  Excelência operacional pode diminuir custos, aumentar a satisfação do cliente e até mesmo ser um diferencial competitivo frente à concorrência.
+			  </br>
+	                  Pensando nisso, o Insper oferece um curso gratuito de Gestão de Operações também no Coursera. Assim como no curso anterior, você só paga se quiser emitir um certificado.
+			  </br>
+			  O curso, entre outras coisas importantes, vai lhe ensinar a gerir seus estoques. Ficou interessado? <a href="https://pt.coursera.org/learn/gestao-de-operacoes">Clica aqui!</a>
+
+			  <strong><label>7.Contrate de forma inteligente</label></strong>
+			  Pessoas são parte vital da sua empresa, independente do ramo de atividade ou modelo de negócio, e é preciso muita inteligência para tomar as decisões corretas sobre recursos humanos.
+			  </br>
+                          O “Curso Grátis de Introdução ao Recrutamento e Seleção”, oferecido on-line pelo IPED, visa capacitar o aluno a lidar corretamente com toda a complexidade envolvida no processo de recrutamento. Para acessar o curso, <a href="https://www.iped.com.br/cursos-gratis/recursos-humanos/curso-rapido/introducao-recrutamento-selecao#conteudo">clique aqui.</a>
+			  </br>
+			  <strong><label>8.Entenda como funciona a parte técnica de aplicativos e sites</label></strong>
+			  </br> 
+                          Grande parte dos modelos de negócios exigem presença digital. Seja por meio de aplicativos Android ou iOS ou site, sua empresa provavelmente vai precisar estar na internet.
+                          </br>
+                          Empreendedores sem background técnico por vezes sofrem ao contratar programadores porque não conseguem avaliar precisamente a dificuldade do trabalho e a qualidade das entregas. 
+                          </br>
+                          Muitos empreendedores de sucesso recomendam desenvolver modelos de negócio tecnológicos em sociedade com programadores. Se esse não for seu caso, a Brainee recomenda que você aprenda os conceitos básicos de programação no “Curso de Lógica de Programação Básica Online Grátis” da Prime Cursos.
+                          </br>
+                          Você aprenderá sobre algoritmos e os principais comandos de programação. Caso esteja interessado, <a href="https://www.primecursos.com.br/logica-de-programacao-basica/">clique aqui.</a>
+		          </br>
+	  	  	  Esses cursos provavelmente lhe ajudarão muito a construir sua startup. Entretanto, apesar de formarem um sólido alicerce teórico para a operacionalização da sua ideia, eles não garantirão seu sucesso.
+			  </br>
+			  Parte do trabalho de um empreendedor é ser ávido por conhecimento e estar constantemente buscando novas informações. 
+			  </br>
+			  Para ajudá-lo nesse trabalho, a Brainee produz conteúdo sobre startups, tecnologia e empreendedorismo adaptado aos seus interesses. Caso esteja interessado, insira suas informações abaixo e seja informado quando novos conteúdos forem criados!
+            </div>
+          </div>
+           <a href="../index.html"><input type="button" class="btn card-button" value="Voltar"></a>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-add flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <!--TODO: VALIDAR FORM -->
+              <form id="contactForm">
+                <div class="form-group">
+                  <strong><label class="styleLabel">Preenchimento do formulário de contato</label></strong>
+                </div>
+                <div class="form-group">
+                  <label>Nome completo:</label>
+                  <input type="text" class="form-control" id="txtNomeUsuario" placeholder="Informe seu nome">
+                </div>
+                <div class="form-group">
+                  <label>Email:</label>
+                  <input type="email" class="form-control" id="txtEmailUsuario" placeholder="Informe seu email">
+                </div>
+                <div class="form-group">
+                  <label>Ocupação:</label>
+                  <input type="text" class="form-control" id="txtOcupacaoUsuario" placeholder="Informe sua ocupação">
+                </div>
+                <div class="form-group form-check">
+                </div>
+                <button type="submit" id="btnEnviar" class="btn card-button">Enviar</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm h-md-250">
+            <div class="sideMenu">
+                <h3 class="mb-0">
+                    <a class="text-white" href="#">Últimos Posts</a>
+                </h3>  
+            </div> 
+            <div class="card-body d-flex flex-column align-items-start">             
+              <ul>
+                <li><a class="customLink" href="#">Consultoria de Negócios</a></li>
+                <li><a href="#">Sua Startup do Zero</a></li>
+                <li><a href="#">Post 3</a></li>
+                <li><a href="#">Post 2</a></li>
+                <li><a href="pages/primeiroPost.html">Como ter um mindset empreendedor?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-functions.js"></script>
+    
+
+    <script src="../js/bancoFirebase.js"></script>>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
