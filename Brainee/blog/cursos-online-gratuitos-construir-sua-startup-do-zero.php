@@ -3,7 +3,7 @@
 ?>
 
 <?php
-    include ('primeiroPost.html')
+    include ('segundoPost.html')
 ?>
 
  <?php
