@@ -5,9 +5,10 @@
 
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Título mais longo para um post destacado</h1>
-          <p class="lead my-3">Várias linhas formando uma introdução, informando novos leitores rápido e eficientemente sobre o que é mais interessante, neste post.</p>
-          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue lendo...</a></p>
+        <img src="img/dicas-de-empreendedorismo.jpeg"
+          <h1 class="display-4 font-italic">8 cursos online gratuitos que vão te ajudar <br/>a construir sua Startup do zero!</h1>
+          <p class="lead my-3">Todo mundo sabe que empreender não é fácil. Basta começar seu negócio para perceber que, de repente, você vai precisar entender de recursos humanos, direito, finanças, marketing, vendas, gestão de projetos e até programação.</p>
+          <p class="lead mb-0"><a href="blog/cursos-online-gratuitos-construir-sua-startup-do-zero.php" class="text-white font-weight-bold">Continue lendo...</a></p>
         </div>
       </div>
 
@@ -15,39 +16,33 @@
         <div class="col-md-9">
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <img class="imagemPost" src="img/meeting.jpg">
+            <a href="blog/como-tirar-sua-startup-do-papel.php"><img class="imagemPost" src="img/meeting.jpg"></a>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">Consultoria de Negócios</a>
+                <a class="text-dark" href="blog/como-tirar-sua-startup-do-papel.php">Como tirar sua Startup do papel?</a>
               </h3>
-              <div class="mb-1 text-muted">Postado dia 31/07/2018</div>
-              <p class="card-text mb-auto">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+              <div class="mb-1 text-muted">Postado dia 01/08/2018</div>
+              <p class="card-text mb-auto">Você tem uma ideia de negócio inovadora e viável, mas não sabe como começar?
+Já se perguntou como criar uma <br/> startup, mas não possui experiência ou investimento? Calma, não desanime! Existem soluções e dúvidas. Quer saber qual? <br/> Uma incubadora de empresas!
+Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até o final e veja como funciona, <br/> onde encontrar, as vantagens e se torne expert no assunto.</p>
               <a href="#">Continue lendo...</a>
             </div>
           </div>
           
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <img class="imagemPost" src="img/casual-meeting.jpg">
+            <a href="blog/como-ter-um-mindset-empreendedor.php">
+              <img class="imagemPost" src="img/dicas-de-empreendedorismo.jpeg">
+            </a>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">Sua Startup do Zero</a>
+                <a class="text-dark" href="blog/como-ter-um-mindset-empreendedor.php">Como ter um mindset empreendedor?</a>
               </h3>
-              <div class="mb-1 text-muted">Postado dia 30/07/2018</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="mb-1 text-muted">Postado dia 31/07/2018</div>
+              <p class="card-text mb-auto">Primeiro, você deve estar se perguntando o que significa mindset, palavra que está tão em alta ultimamente. <br/> Se você é aquilo que você pensa, porque não programar o seu pensamento para alcançar o sucesso? Mindset é a sua mente configurada, <br/>  e neste caso, para o empreendedorismo. Empreender não é fácil e pode ficar ainda mais complicado se tiver aquela voz <br/> dentro de você dizendo que não é capaz. Por isso, baseado nas características de grandes empreendedores, <br/> trago algumas dicas:</p>
               <a href="#">Continue lendo...</a>
             </div>
           </div>
 
-          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <img class="imagemPost" src="img/dicas-de-empreendedorismo.jpeg">
-              <h3 class="mb-0">
-                <a class="text-dark" href="pages/primeiroPost.html">Como ter um mindset empreendedor?</a>
-              </h3>
-              <div class="mb-1 text-muted">Postado por Bruna Moraes, dia 31/07/2018</div>
-              <p class="card-text mb-auto">Primeiro, você deve estar se perguntando o que significa mindset, palavra que está tão em alta ultimamente.  Se você é aquilo que você pensa, porque não programar o seu pensamento para alcançar o sucesso? Mindset é a sua mente configurada, e neste caso, para o empreendedorismo.
-              Empreender não é fácil e pode ficar ainda mais complicado se tiver aquela voz dentro de você dizendo que não é capaz.</p>
-              <a href="pages/primeiroPost.html">Continue lendo...</a>
-            </div>
+        
           </div>
 
         </div>
