@@ -42,7 +42,7 @@ function submitForm(e){
   }
 
   //save user
-  saveUser(nome,email,ocupacao);
+  saveUser(nome,email,ocupacao,validaEmailB2B(email));
   alert('Muito obrigado! Seus dados foram salvos.');
 }
 
@@ -52,7 +52,7 @@ function getInputVal(id){
 }
 
 //Salva o form para o firebase
-function saveUser(nome,email,ocupacao,datahora,ip){
+function saveUser(nome,email,ocupacao,tipo,datahora,ip){
   var timestamp = new Date().getTime();
   var novoUsuarioRef = usuariosRef.push();
   novoUsuarioRef.set({
@@ -60,7 +60,8 @@ function saveUser(nome,email,ocupacao,datahora,ip){
     email: email,
     ocupacao: ocupacao,
     datahora: timestamp,
-    ip: getIp()
+    ip: getIp(),
+    tipo: tipo
   });
 }
 
@@ -120,15 +121,6 @@ function validarNome(nome) {
 }
 
 //Função para validar Ocupação
-/*function validarOcupacao(ocupacao) {
-    let nomeValido = ocupacao.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]*$/);
-    if (nomeValido) {
-        return true;
-    } else {
-        return false;
-    }
-}*/
-
 function validarOcupacao(ocupacao) {
     let nomeValido = ocupacao;
     if(nomeValido.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]*$/) || nomeValido.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]+([ ][a-zA-ZáÁéÉ]+)*$/))
@@ -138,3 +130,23 @@ function validarOcupacao(ocupacao) {
         return false;
     }
 }
+
+
+//Para validar email B2B
+function validaEmailB2B(email){
+  var emailCorp = ["gmail.com","hotmail.com","uol.com.br","terra.com.br","outlook.com.br","live.com"];
+
+  var separador = '@';
+  var emailB2B = email.split(separador);
+
+  var splitEmail = emailB2B[1];
+
+  var tipo = 'B2B';
+
+  for(i = 0; i < emailCorp.length;i++){
+    if(splitEmail === emailCorp[i])
+      tipo = 'B2C';
+  }
+  return tipo;   
+}
+
