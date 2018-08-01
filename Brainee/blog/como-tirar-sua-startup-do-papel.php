@@ -6,6 +6,10 @@
     include ('terceiroPost.html')
 ?>
 
+<?php
+    include ('../cta.html')
+?>
+
  <?php
     include ('../grid-lateral.html')
   ?>
