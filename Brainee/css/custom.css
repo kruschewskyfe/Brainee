@@ -13,9 +13,10 @@
 }
 
 .card-button{
+	display: block !important;
 	color: #fff;
-  	background-color: #d279d2;
-  	border-color: #d279d2;
+  	background-color: #ED6B00;
+	border-color: #ED6B00;
 }
 
 .sideMenu{
