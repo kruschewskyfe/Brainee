@@ -42,7 +42,12 @@ function submitForm(e){
   }
 
   //save user
-  saveUser(nome,email,ocupacao,validaEmailB2B(email));
+  saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
+
+  //Reseta form
+  var form = document.querySelector("#contactForm");
+  form.reset();
+  
   alert('Muito obrigado! Seus dados foram salvos.');
 }
 
@@ -53,14 +58,13 @@ function getInputVal(id){
 
 //Salva o form para o firebase
 function saveUser(nome,email,ocupacao,tipo,datahora,ip){
-  var timestamp = new Date().getTime();
   var novoUsuarioRef = usuariosRef.push();
   novoUsuarioRef.set({
     nome: nome,
     email: email,
     ocupacao: ocupacao,
-    datahora: timestamp,
-    ip: getIp(),
+    datahora: datahora,
+    ip: ip,
     tipo: tipo
   });
 }
@@ -94,7 +98,7 @@ function getIp() {
 }
 
 console.log(getIp());
-
+console.log(moment().tz("America/Sao_Paulo").format());
 
 
 
@@ -112,7 +116,7 @@ function validaEmail(email){
 
 //Função Regex para o nome
 function validarNome(nome) {
-    let nomeValido = nome.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]+([ ][a-zA-ZáÁéÉ]+)*([ ][a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]+)+([ ][a-zA-ZáÁéÉ]+)*$/);
+    let nomeValido = nome.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*$/);
     if (nomeValido) {
         return true;
     } else {
@@ -123,7 +127,7 @@ function validarNome(nome) {
 //Função para validar Ocupação
 function validarOcupacao(ocupacao) {
     let nomeValido = ocupacao;
-    if(nomeValido.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]*$/) || nomeValido.trim().match(/^[a-zA-ZáÁéÉ][a-zA-ZáÁéÉ]+([ ][a-zA-ZáÁéÉ]+)*$/))
+    if(nomeValido.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]*$/) || nomeValido.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*$/))
     if (nomeValido) {
         return true;
     } else {
@@ -149,4 +153,3 @@ function validaEmailB2B(email){
   }
   return tipo;   
 }
-
