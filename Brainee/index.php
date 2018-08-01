@@ -4,8 +4,9 @@
     <div class="container">
 
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+      <img class="imagemPost" src="img/dicas-de-empreendedorismo.jpg">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">8 cursos online gratuitos que vão te ajudar <br/>a construir sua Startup do zero!</h1>
+          <h1 class="display-4 font-italic">8 cursos online gratuitos que vão te ajudar a construir sua Startup do zero!</h1>
           <p class="lead my-3">Todo mundo sabe que empreender não é fácil. Basta começar seu negócio para perceber que, de repente, você vai precisar entender de recursos humanos, direito, finanças, marketing, vendas, gestão de projetos e até programação.</p>
           <p class="lead mb-0"><a href="blog/cursos-online-gratuitos-construir-sua-startup-do-zero.php" class="text-white font-weight-bold">Continue lendo...</a></p>
         </div>
