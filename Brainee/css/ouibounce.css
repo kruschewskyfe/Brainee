@@ -4,6 +4,9 @@
 .cmodalform{
   margin-bottom: 5px !important;
 }
+.textmodal{
+  color: #344a5f !important;
+}
 #ouibounce-modal {
     font-family: 'Open Sans', sans-serif;
     display: none;
