@@ -8,7 +8,7 @@
     messagingSenderId: "516855679444"
   };
   firebase.initializeApp(config);
-
+ 
 
 //Referenciando usuarios collection
 var usuariosRef = firebase.database().ref();
