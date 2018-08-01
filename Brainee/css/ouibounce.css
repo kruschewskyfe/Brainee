@@ -1,3 +1,6 @@
+.modalform{
+  width: 100% !important;
+}
 #ouibounce-modal {
     font-family: 'Open Sans', sans-serif;
     display: none;
