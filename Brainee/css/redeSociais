@@ -1,0 +1,43 @@
+.redes-sociais{
+	width: 253px;
+	height: 150px
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	background: #dbf;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.redes-sociais h3{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.75rem;
+}
+.titulo-rede{
+	width: 100%;
+	height: 50px;
+	background: #3e0c44;
+	display: block;
+	padding: 0;
+}
+
+.redes-sociais ul{
+	margin: 0;
+	display: block;
+	padding: 10px;
+}
+.redes-sociais ul li{
+	display: inline-block;
+	margin: 0;
+}
+
+.redes-sociais ul li img{
+	width: 74px;
+}
