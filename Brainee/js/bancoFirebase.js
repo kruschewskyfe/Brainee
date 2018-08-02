@@ -1,4 +1,5 @@
 // Initialize Firebase
+// Versao Final
   var config = {
     apiKey: "AIzaSyAiYlgWW5j03haswCQuW1qUiy7R5ytxl_w",
     authDomain: "brainee-9ee17.firebaseapp.com",
