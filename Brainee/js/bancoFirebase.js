@@ -28,21 +28,21 @@ function submitForm(e){
   console.log(email);
   console.log(ocupacao);
 
-  //Pega os valores
-  if (!validarNome(txtNomeUsuario.value))
-    alert('Favor informar seu nome completo e válido!');
+  if(document.getElementById("txtNomeUsuario").value == ""){
+    alert('Por favor, preencha o campo nome');
+    document.getElementById("txtNomeUsuario").focus();
+    return false
+  }
+  else if(!validaEmail(txtEmailUsuario.value)){
+    alert('Favor informar um email válido!');
+  }
+  else if(document.getElementById("txtOcupacaoUsuario").value == ""){
+    alert('Por favor, preencha o campo ocupação');
+    document.getElementById("txtOcupacaoUsuario").focus();
+    return false
+  }
   else{
-    if(!validaEmail(txtEmailUsuario.value))
-    {
-      alert('Favor informar um email válido!');
-    }
-    else{
-      if(!validarOcupacao(txtOcupacaoUsuario.value))
-      {
-        alert('Favor informar uma ocupação válida!');   
-      }
-      else{
-        //save user
+    //save user
         saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
 
         //Reseta form
@@ -50,10 +50,9 @@ function submitForm(e){
         form.reset();
         
         alert('Muito obrigado! Seus dados foram salvos.');
-      }
-    }
   }
 }
+
 
 //Função para pegar valores do form
 function getInputVal(id){
