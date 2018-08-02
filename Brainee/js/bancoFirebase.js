@@ -20,6 +20,10 @@ document.getElementById('contactForm').addEventListener('submit',submitForm);
 function submitForm(e){
   e.preventDefault();
 
+  var nome = txtNomeUsuario.value;
+  var email = txtEmailUsuario.value;
+  var ocupacao = txtOcupacaoUsuario.value;
+
   //Pega os valores
   if (!validarNome(txtNomeUsuario.value))
     alert('Favor informar seu nome completo e válido!');
@@ -34,21 +38,21 @@ function submitForm(e){
         alert('Favor informar uma ocupação válida!');   
       }
       else{
-        var nome = txtNomeUsuario.value;
-        var email = txtEmailUsuario.value;
-        var ocupacao = txtOcupacaoUsuario.value;
+        //save user
+        saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
+
+        //Reseta form
+        var form = document.querySelector("#contactForm");
+        form.reset();
+        
+        alert('Muito obrigado! Seus dados foram salvos.');
+
+        console.log(nome);
+        console.log(email);
+        console.log(ocupacao);
       }
     }
   }
-
-  //save user
-  saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
-
-  //Reseta form
-  var form = document.querySelector("#contactForm");
-  form.reset();
-  
-  alert('Muito obrigado! Seus dados foram salvos.');
 }
 
 //Função para pegar valores do form
