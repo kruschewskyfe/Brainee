@@ -1,5 +1,4 @@
 // Initialize Firebase
-// Versao Final
   var config = {
     apiKey: "AIzaSyAiYlgWW5j03haswCQuW1qUiy7R5ytxl_w",
     authDomain: "brainee-9ee17.firebaseapp.com",
@@ -105,7 +104,7 @@ function getIp() {
 console.log(getIp());
 console.log(moment().tz("America/Sao_Paulo").format());
 
- 
+
 
 //Função para validar email
 function validaEmail(email){
@@ -121,18 +120,18 @@ function validaEmail(email){
 
 //Função Regex para o nome
 function validarNome(nome) {
-    let nomeValido = nome.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*$/);
-    if (nomeValido) {
-        return true;
-    } else {
-        return false;
-    }
+   let nomeValido = nome.trim().match(/^[a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+([ ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+)*([ ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+)+([ ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+)*$/);
+   if (nomeValido) {
+       return true;
+   } else {
+       return false;
+   }
 }
 
 //Função para validar Ocupação
 function validarOcupacao(ocupacao) {
     let nomeValido = ocupacao;
-    if(nomeValido.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]*$/) || nomeValido.trim().match(/^[a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*([ ][a-zA-ZáÁãÃâÂäÄéÉêÊëËíÍîÎõÕôÔöÖúÚüÜçÇ]+)*$/))
+    if(nomeValido.trim().match(/^[a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]*$/) || nomeValido.trim().match(/^[a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+([ ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+)*([ ][a-zA-ZáÁãÃéÉêÊíÍõÕôÔúÚçÇ]+)*$/))
     if (nomeValido) {
         return true;
     } else {
