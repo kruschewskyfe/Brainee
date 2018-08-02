@@ -33,4 +33,9 @@
     background-color: #3E0C44;
 	color: #fff;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
