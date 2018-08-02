@@ -105,7 +105,7 @@ function getIp() {
 console.log(getIp());
 console.log(moment().tz("America/Sao_Paulo").format());
 
-
+ 
 
 //Função para validar email
 function validaEmail(email){
