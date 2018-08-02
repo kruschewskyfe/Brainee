@@ -30,7 +30,8 @@
 }
 
 .obrigado {
-    background-color: #3E0C44;
+	background-color: #3E0C44;
+	margin-top: -20px;
 	color: #fff;
 	height: 100vh;
 	display: flex;
