@@ -20,20 +20,16 @@ document.getElementById('contactForm').addEventListener('submit',submitForm);
 function submitForm(e){
   e.preventDefault();
 
-  var nome = txtNomeUsuario.value;
-  var email = txtEmailUsuario.value;
-  var ocupacao = txtOcupacaoUsuario.value;
-
-  console.log(nome);
-  console.log(email);
-  console.log(ocupacao);
+  var nome = document.getElementById('txtNomeUsuario').value;
+  var email = document.getElementById('txtEmailUsuario').value;
+  var ocupacao = document.getElementById('txtOcupacaoUsuario').value;
 
   if(document.getElementById("txtNomeUsuario").value == ""){
     alert('Por favor, preencha o campo nome');
     document.getElementById("txtNomeUsuario").focus();
     return false
   }
-  else if(!validaEmail(txtEmailUsuario.value)){
+  else if(!validaEmail(email)){
     alert('Favor informar um email válido!');
   }
   else if(document.getElementById("txtOcupacaoUsuario").value == ""){
@@ -108,7 +104,7 @@ console.log(moment().tz("America/Sao_Paulo").format());
 //Função para validar email
 function validaEmail(email){
     var str = email;
-    var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    var filtro = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
     if(filtro.test(str)) {
         return true;
     } 
