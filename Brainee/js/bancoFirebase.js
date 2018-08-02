@@ -24,6 +24,10 @@ function submitForm(e){
   var email = txtEmailUsuario.value;
   var ocupacao = txtOcupacaoUsuario.value;
 
+  console.log(nome);
+  console.log(email);
+  console.log(ocupacao);
+
   //Pega os valores
   if (!validarNome(txtNomeUsuario.value))
     alert('Favor informar seu nome completo e válido!');
@@ -46,10 +50,6 @@ function submitForm(e){
         form.reset();
         
         alert('Muito obrigado! Seus dados foram salvos.');
-
-        console.log(nome);
-        console.log(email);
-        console.log(ocupacao);
       }
     }
   }
