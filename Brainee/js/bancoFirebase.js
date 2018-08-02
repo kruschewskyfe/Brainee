@@ -41,6 +41,7 @@ function submitForm(e){
     }
   }
 
+
   //save user
   saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
 
