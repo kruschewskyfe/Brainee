@@ -45,7 +45,8 @@ function submitForm(e){
         var form = document.querySelector("#contactForm");
         form.reset();
         
-        alert('Muito obrigado! Seus dados foram salvos.');
+        //alert('Muito obrigado! Seus dados foram salvos.');
+        window.location.href = "http://brainee.com.br/obrigado.php";
   }
 }
 
