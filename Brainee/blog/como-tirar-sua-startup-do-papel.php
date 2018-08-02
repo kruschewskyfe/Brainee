@@ -7,7 +7,7 @@
 ?>
 
 <?php
-    include ('../cta.html')
+    include ('cta.html')
 ?>
 
  <?php
