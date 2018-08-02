@@ -1,10 +1,10 @@
 <?php
-	include ('../header.html')
+	include ('header.html')
 ?>
 
 <?php
     include ('obrigado.html')
 ?>
 <?php
-    include ('../footer.html')
+    include ('footer.html')
 ?>
