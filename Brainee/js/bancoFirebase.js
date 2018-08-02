@@ -34,13 +34,12 @@ function submitForm(e){
         alert('Favor informar uma ocupação válida!');   
       }
       else{
-        var nome = getInputVal('txtNomeUsuario');
-        var email = getInputVal('txtEmailUsuario');
-        var ocupacao = getInputVal('txtOcupacaoUsuario');
+        var nome = txtNomeUsuario.value;
+        var email = txtEmailUsuario.value;
+        var ocupacao = txtOcupacaoUsuario.value;
       }
     }
   }
-
 
   //save user
   saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
@@ -141,7 +140,7 @@ function validarOcupacao(ocupacao) {
 function validaEmailB2B(email){
   var emailCorp = ["gmail.com","hotmail.com","uol.com.br","terra.com.br","outlook.com.br","live.com"];
 
-  var separador = '@';
+  var separador = "@";
   var emailB2B = email.split(separador);
 
   var splitEmail = emailB2B[1];
