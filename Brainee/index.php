@@ -1,5 +1,5 @@
 ﻿<?php
-	include ("header.html")
+        include ("header.html")
 ?>
     <div class="container">
 
@@ -13,7 +13,7 @@
 
       <div class="row mb-2">
         <div class="col-md-9">
-          <div class="jumbotron card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
             <a href="blog/como-tirar-sua-startup-do-papel.php"><img class="imagemPost" src="img/meeting.jpg"></a>
               <h3 class="mb-0">
@@ -26,8 +26,8 @@ Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até 
               <a href="blog/como-tirar-sua-startup-do-papel.php">Continue lendo...</a>
             </div>
           </div>
-          
-          <div class="jumbotron card flex-md-row mb-4 shadow-sm h-md-250">
+
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
             <a href="blog/como-ter-um-mindset-empreendedor.php">
               <img class="imagemPost" src="img/mindset-empreendedor.jpg">
@@ -41,18 +41,17 @@ Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até 
             </div>
           </div>
 
-        
+
           </div>
 
-      
-     
+
+
 
   <?php
     include ("grid-lateral.html")
   ?>
 <?php
-	include ("modal.html")
+        include ("modal.html")
 ?>
   <?php
     include ("footer.html")
-  ?>
