@@ -60,16 +60,16 @@ function submitForm(e){
 function submitForm(e){
   e.preventDefault();
 
-  var nome = document.getElementById('txtNomeUsuario1').value;
-  var email = document.getElementById('txtEmailUsuario1').value;
-  var ocupacao = document.getElementById('txtOcupacaoUsuario1').value;
+  var nome1 = document.getElementById('txtNomeUsuario1').value;
+  var email1 = document.getElementById('txtEmailUsuario1').value;
+  var ocupacao1 = document.getElementById('txtOcupacaoUsuario1').value;
 
   if(document.getElementById("txtNomeUsuario1").value == ""){
     alert('Por favor, preencha o campo nome');
     document.getElementById("txtNomeUsuario1").focus();
     return false
   }
-  else if(!validaEmail(email)){
+  else if(!validaEmail(email1)){
     alert('Favor informar um email válido!');
   }
   else if(document.getElementById("txtOcupacaoUsuario1").value == ""){
@@ -79,11 +79,11 @@ function submitForm(e){
   }
   else{
     //save user
-        saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
+        saveUser(nome1,email1,ocupacao1,validaEmailB2B(email1),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
 
         //Reseta form
-        var form = document.querySelector("#contactForm1");
-        form.reset();
+        var form1 = document.querySelector("#contactForm1");
+        form1.reset();
         
         //alert('Muito obrigado! Seus dados foram salvos.');
         window.location.href = "http://brainee.com.br/obrigado.php";
@@ -94,16 +94,16 @@ function submitForm(e){
 function submitForm(e){
   e.preventDefault();
 
-  var nome = document.getElementById('txtNomeUsuario2').value;
-  var email = document.getElementById('txtEmailUsuario2').value;
-  var ocupacao = document.getElementById('txtOcupacaoUsuario2').value;
+  var nome2 = document.getElementById('txtNomeUsuario2').value;
+  var email2 = document.getElementById('txtEmailUsuario2').value;
+  var ocupacao2 = document.getElementById('txtOcupacaoUsuario2').value;
 
   if(document.getElementById("txtNomeUsuario2").value == ""){
     alert('Por favor, preencha o campo nome');
     document.getElementById("txtNomeUsuario2").focus();
     return false
   }
-  else if(!validaEmail(email)){
+  else if(!validaEmail(email2)){
     alert('Favor informar um email válido!');
   }
   else if(document.getElementById("txtOcupacaoUsuario2").value == ""){
@@ -113,11 +113,11 @@ function submitForm(e){
   }
   else{
     //save user
-        saveUser(nome,email,ocupacao,validaEmailB2B(email),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
+        saveUser(nome2,email2,ocupacao2,validaEmailB2B(email2),moment().tz("America/Sao_Paulo").format("YYYY-MM-DD HH:mm:ss"),getIp());
 
         //Reseta form
-        var form = document.querySelector("#contactForm2");
-        form.reset();
+        var form2 = document.querySelector("#contactForm2");
+        form2.reset();
         
         //alert('Muito obrigado! Seus dados foram salvos.');
         window.location.href = "http://brainee.com.br/obrigado.php";
