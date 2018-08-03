@@ -28,7 +28,11 @@
 .customLink{
 	list-style: none;
 }
-
+.semmargem{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	background-color: #3E0C44;
+}
 .obrigado {
 	background-color: #3E0C44;
 	margin-top: -20px;
