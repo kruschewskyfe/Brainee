@@ -15,7 +15,7 @@
         <div class="col-md-9">
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-            <a href="blog/como-tirar-sua-startup-do-papel.php"><img class="imagemPost" src="img/meeting.jpg"></a>
+            <a href="blog/como-tirar-sua-startup-do-papel.php"><img class="imagemPost img-fluid" src="img/meeting.jpg"></a>
               <h3 class="mb-0">
                 <a class="text-dark" href="blog/como-tirar-sua-startup-do-papel.php">Como tirar sua Startup do papel?</a>
               </h3>
@@ -30,7 +30,7 @@ Pensando nisso, a Brainee elaborou esse conteúdo. Então aproveite e leia até 
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
             <a href="blog/como-ter-um-mindset-empreendedor.php">
-              <img class="imagemPost" src="img/mindset-empreendedor.jpg">
+              <img class="imagemPost img-fluid" src="img/mindset-empreendedor.jpg">
             </a>
               <h3 class="mb-0">
                 <a class="text-dark" href="blog/como-ter-um-mindset-empreendedor.php">Como ter um mindset empreendedor?</a>
