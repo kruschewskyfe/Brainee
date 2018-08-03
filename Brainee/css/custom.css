@@ -50,3 +50,10 @@
 	align-items: center;
 	text-align: center;
 }
+
+@media screen and (max-width: 940px) {
+	.imagemPost {
+    	height: 100% !important;
+    	width: 100% !important;
+	}
+}
