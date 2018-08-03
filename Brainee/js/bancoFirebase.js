@@ -17,10 +17,10 @@ var usuariosRef = firebase.database().ref();
 document.getElementById('contactForm').addEventListener('submit',submitForm);
 
 //Listen for form submit
-document.getElementById('contactForm1').addEventListener('submit',submitForm);
+document.getElementById('contactForm1').addEventListener('submit',submitForm1);
 
 //Listen for form submit
-document.getElementById('contactForm2').addEventListener('submit',submitForm);
+document.getElementById('contactForm2').addEventListener('submit',submitForm2);
 
 //Submit form
 function submitForm(e){
@@ -57,7 +57,7 @@ function submitForm(e){
 }
 
 //Submit form
-function submitForm(e){
+function submitForm1(e){
   e.preventDefault();
 
   var nome1 = document.getElementById('txtNomeUsuario1').value;
@@ -91,7 +91,7 @@ function submitForm(e){
 }
 
 //Submit form
-function submitForm(e){
+function submitForm2(e){
   e.preventDefault();
 
   var nome2 = document.getElementById('txtNomeUsuario2').value;
